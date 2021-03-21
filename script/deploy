@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ssh ubuntu@ec2-52-63-90-82.ap-southeast-2.compute.amazonaws.com <<EOF
+ssh ssh ubuntu@52.63.90.82 <<EOF
     cd ~/node-app
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
