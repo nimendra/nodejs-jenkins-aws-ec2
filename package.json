@@ -1,0 +1,17 @@
+{
+    "name": "node-app",
+    "description": "hello my node-app",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node index.js",
+        "test": "./node_modules/.bin/mocha ./test/test.js"
+    },
+    "dependencies": {
+        "express": "^3.21.2"
+    },
+    "devDependencies": {
+        "mocha": "^8.3.2",
+        "supertest": "^6.1.3"
+    }
+}
